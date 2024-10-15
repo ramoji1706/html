@@ -11,3 +11,5 @@ no_buses_required = math.ceil(no_of_people/no_of_seats_for_bus)
 print(no_buses_required)
 
 updated = 1
+
+updated = 2
