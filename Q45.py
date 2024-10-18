@@ -15,6 +15,4 @@ while result:
         result = False
     elif (user<randomNumber):
         print("Lower")
-        result = False    
-    else:
-        break    
+        result = False
