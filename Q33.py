@@ -11,7 +11,6 @@ last_occurrences= 2
 input = input.split(",")
 length = len(input)
 
-newList = []
 count = 0
 revList = input[::-1]
 for i in range(length):

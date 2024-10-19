@@ -3,16 +3,19 @@
 import random
 
 randomNumber = random.randint(1,100)
-user = int(input("number:"))
+
 result = True
 while result:
+    user = int(input("number:"))    
     if(user == randomNumber):
         print("YES")
         result = False
+    elif (user == 0):
+        print("quit")
         break
     elif (user>randomNumber):
         print("Higher")
-        result = False
+        
     elif (user<randomNumber):
         print("Lower")
-        result = False
+    
